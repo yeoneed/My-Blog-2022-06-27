@@ -1,10 +1,13 @@
+import {Link} from "gatsby";
 import React from "react";
+import Head from "../components/head";
 
 function TestPage(){
     return (
         <main>
-            <title>자기소개</title>
-            <h1>자기소개 페이지</h1>
+            <title>테스트</title>
+            <Head /> 
+            <h1>테스트 페이지</h1>
         </main>
     );
 }

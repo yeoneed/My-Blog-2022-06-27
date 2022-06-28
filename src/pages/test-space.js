@@ -1,15 +1,12 @@
+import {Link} from "gatsby";
 import React from "react";
+import Head from "../components/head";
 
 const TestSpacePage = () => {
   return (
     <main>
       <title>테스트 스페이스</title>
-      <div style={{display: "flex", gap:20}}>
-        <a href="/">로고</a>
-        <div style={{flexGrow:1}}></div>
-        <a href="/test">테스트</a>
-        <a href="/test-space">테스트 스페이스</a>
-      </div>
+      <Head />
       <h1>테스트 스페이스 페이지 입니다.</h1>
     </main>
   );
